@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+.cabecalho img{
+    height: auto;
+    z-index: 10;
+    width: 10%;
+}
+
+.cabecalho{
+    z-index: 10;
+display: flex;
+flex-direction: wrap;
+background-color: rgb(0, 0, 0);
+}
+
+.cabecalho ul{
+    z-index: 10;
+    display: flex;
+    flex-direction: wrap;
+    list-style: none;
+}
+
+.cabecalho ul li{
+    z-index: 10;
+    font-size: 5vh;
+    margin-top: 6.5%;
+    color: white;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    text-decoration: none;
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.cabecalho ul li a{
+    z-index: 10;
+    color: white;
+    text-decoration: none;
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.fundo1{
+    
+    z-index: 1;
+}
+
+.fundo1 img{
+    position: absolute;
+    z-index: 1;
+}
+
+
+.textos{
+margin-top: 15%;    
+margin-left: 3%;
+ z-index: 10;   
+  color: white;
+  position: absolute;
+  max-width: 60%;
+}
+
+.textos .site{
+    z-index: 10;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vh; 
+}
+
+.nomee{
+    z-index: 10;
+    display: flex;
+    flex-direction: wrap;
+}
+
+.textos .nome{
+    z-index: 10;
+    font-size: 15vh; 
+    display: flex;
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.textos .scape{
+    z-index: 10;
+    margin-top: 7%;
+    margin-left: -25%;
+    font-size: 5vh; 
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.textos .sinopse{
+    z-index: 10;
+    font-size: 5vh; 
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.divisor1{
+    transform: rotate(-5deg);
+    height: 22vh;
+    margin-left: -3%;
+    width: 2200px;
+    margin-top: 130vh;
+    margin-bottom: 5%;
+    position: absolute;
+    z-index: 100;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+.astronauta{
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    margin-top: 13%;
+    margin-left: 50%;
+}
+
+.astronauta img{
+    height: 90vh;
+    width: 90%;
+    margin-left: 25%;
+    z-index: 100;
+}
+
+.disponivel #plataforma{
+    display: flex;
+    font-family: "Junge", cursive;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    margin-top: -52%;
+    font-size: 9.5vh;
+    margin-left: 20%;
+    z-index: 1000;
+    
+    
+}
+
+.disponivel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* dispositivos */
+
+#estrelas{
+    margin-left: 4.6%;
+display: flex;
+position: absolute;    
+margin-top: 23%;  
+height: 110vh;
+width: 90%;
+}
+
+#monitor{
+    margin-top: -18%;
+    position: relative;
+    z-index: 100;
+    height: 100vh;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#celular{
+    position: relative;   
+z-index: 100;
+margin-left: 15%;
+margin-top: -38%;
+height: 70vh;
+width: 30%;
+}
+
+#tablet{
+position: relative;    
+transform: rotate(119.1deg);
+z-index: 100;
+margin-left: 50%;
+margin-top: -30%;
+height: 30vw;
+width: 30%;
+}
+
+#astronautinha{
+    z-index: 1000;
+    margin-top: 10%;
+    position: static;
+    margin-left: 33%;
+    width: 35%;
+}
+
+.divisor2{
+    transform: rotate(3deg);
+    height: 20vh;
+    margin-left: -3%;
+    width: 2200px;
+    margin-top: 30vh;
+    position: absolute;
+    z-index: 100;
+    position: relative;
+    margin-top: 40vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#video{
+    height: 60vw;
+    width: 100%;
+}
+
+
+#estrelas1{
+margin-left: 4.6%;
+display: flex;
+position: absolute;    
+margin-top: 8%;  
+height: 110vh;
+width: 90%;
+}
+
+#saturno{
+    position: relative;
+    margin-left: 65%;
+    margin-top: -8%;
+    z-index: 100;
+    
+}
+
+#ast{
+    height: 20vw;
+    position: relative;
+    margin-left: 75%;
+    z-index: 1;
+    margin-top: -4.45%;
+}
+
+#cadente{
+    position:relative ;
+    z-index: 101;
+    margin-left: -12%;
+    transform: rotate(70deg);
+   margin-top: -70%;
+    width: 60%;
+    
+}
+
+.venda .njogo{
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    z-index: 2400;
+    font-size: 8.5vw;
+    color: white;
+    margin-left: 25%;
+    margin-top: -25%;
+}
+
+.venda .rs{
+    position: relative;
+    margin-left: 26%;
+    color: white;
+    font-size: 9vw;
+    margin-top: -4.5%;
+    font-family: "Junge", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.venda .price{
+    font-family: "Lakki Reddy", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 38%;
+    font-size: 16vw;
+    color: white;
+    position: relative;
+    z-index: 200;
+    margin-top:-14%;
+}
+
+.venda .scape{
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: relative;
+    font-size: 3vw;
+    margin-top: -15.5%;
+    margin-left: 27%;
+}
+
+.comprar{
+    position: relative;
+    background-color: white;
+    z-index: 222;
+    width: 50%;
+    margin-left: 25%;
+    height: 15vh;
+    margin-top: 4%;
+}
+
+.rodape{
+    margin-top:-520px;
+}
+
+.img-rodape{
+    margin-top: 50%;
+    width: 100%;
+    position:absolute;
+}
+
+.home-rodape{
+    margin-top: 100%;
+    font-size:70px;
+    font-family: Irish Grover;
+    position:relative;
+    color:white;
+}
+
+.about-us-rodape{
+    margin-top: 160%;
+    font-size:70px;
+    font-family: Irish Grover;
+    position:relative;
+    color:white;
+}
+
+.hist-rodape{
+    margin-top: 100%;
+    font-size:70px;
+    font-family: Irish Grover;
+    position:relative;
+    color:white;
+}
+
+.txts-rodape{
+    margin-top:120px;
+    margin-left:70px;
+    display:grid;
+    grid-template-columns:800px 500px;
+    grid-template-rows: 100px 70px;
+}
+
+
+
+.rodape .txts-rodape p a{
+    z-index: 10;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+#ast:hover{
+    scale: 1.04;
+}
+
+.comprar:hover{
+    scale: 1.04;
+}
+
+.adquira:hover{
+    scale: 1.04;
+}
+.agora:hover{
+    scale: 1.04;
+}
+#astcomprar:hover{
+    scale: 1.04;
+}
+
+.njogo:hover{
+    scale: 1.04;
+}
+
+.rs:hover{
+    scale: 1.04;
+}
+
+.price:hover{
+    scale: 1.04;
+}
+
+.rs:hover{
+    scale: 1.04;
+}
+
+.scape:hover{
+    scale: 1.04;
+}
+
+#cadente:hover{
+    scale: 1.04;
+}
+
+
+#saturno:hover{
+    scale: 1.04;
+}
+
+#astronautinha:hover{
+    scale: 1.08;
+}
+
+#astronauta:hover{
+    scale: 1.08;
+}
+
+#logo:hover{
+    scale: 1.10;
+}
+
+#txt1:hover{
+    scale: 1.04;
+}
+
+#txt2:hover{
+    scale: 1.04;
+}
+
+
+
+.comprar #astcomprar{
+    margin-left: 30%;
+    margin-top: -10%;
+    
+}
+
+.venda .adquira{
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 26.7%;
+    position: relative;
+    z-index: 233;
+    margin-top: -6.5%;
+    font-size: 4vw;
+}
+
+.venda .agora{
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 55%;
+    position: relative;
+    z-index: 233;
+    margin-top: -7%;
+    font-size: 4vw;
+}
+
+.jogo{
+    z-index: 10;
+}
